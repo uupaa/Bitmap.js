@@ -1,0 +1,2 @@
+# Bitmap.js
+Bitmap implementation.

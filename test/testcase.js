@@ -35,6 +35,8 @@ if (_runOnBrowser || _runOnNodeWebKit) {
     //test.add([]);
 }
 
+var performance = global["performance"] || Date;
+
 // --- test cases ------------------------------------------
 function testBitmap_createBlob(test, pass, miss) {
 
@@ -47,7 +49,7 @@ function testBitmap_createBlob(test, pass, miss) {
     var ctx = canvas.getContext("2d");
     _paintSampleImage(ctx);
 
-    if (0) {
+    if (1) {
         // 2048px -> 80〜160ms
         // 1024px -> 20〜60ms
         //  512px ->  6〜34ms

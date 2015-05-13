@@ -1,6 +1,6 @@
 {
   "name": "uupaa.bitmap.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Bitmap implementation.",
   "url": "https://github.com/uupaa/Bitmap.js",
   "keywords": ["uupaa", "WebModule", "Unstable"],
